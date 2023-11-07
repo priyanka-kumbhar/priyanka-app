@@ -4,7 +4,7 @@ import streamlit as st
 import numpy as np
 
 import matplotlib.pyplot as plt
- matplotlib inline
+%matplotlib inline
 
 df pd.write_csv('Leave_tracker1.py.csv)   
-df.head()
+df.head() 
