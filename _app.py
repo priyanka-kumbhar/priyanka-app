@@ -1,3 +1,5 @@
 import streamlit as st
-data = st.write('/Leave_tracker1.csv')   
-# data.head()
+import numpy as py
+import pandas as pd 
+data = pd.write_csv('/Leave_tracker1.csv')   
+data.head()
