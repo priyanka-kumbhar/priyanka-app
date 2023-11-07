@@ -6,5 +6,5 @@ import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
 
-df pd.write_csv('Leave_tracker1.py.csv)   
+df = pd.write_csv('Leave_tracker1.py.csv')   
 df.head() 
