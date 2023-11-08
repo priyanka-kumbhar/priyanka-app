@@ -4,7 +4,7 @@ import pandas as pd
 # from prophet import Prophet
 
 # data = pd.read_csv("Leave_tracker1.py.csv")
-st.write(data)
+# st.write(data)
 
 data.info()
 st.write(data)
