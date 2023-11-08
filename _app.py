@@ -1,7 +1,7 @@
 # import numpy as np
 import streamlit as st
 import pandas as pd
-from prophet import Prophet
+# from prophet import Prophet
 
 data = pd.read_csv("Leave_tracker1.py.csv")
 st.write(data)
