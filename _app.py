@@ -6,6 +6,8 @@ import pandas as pd
 data = pd.read_csv("Leave_tracker1.py.csv")
 st.write(data)
 
+data.info()
+
 # import matplotlib.pyplot as plt
 # %matplotlib inline
 
