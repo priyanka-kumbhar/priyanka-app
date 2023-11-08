@@ -9,5 +9,7 @@ import pandas as pd
 # %matplotlib inline
 
 df=pd.read_csv("Leave_tracker1.py.csv")  
-st.write(df)
+# st.write(df)
 # df.head() 
+df.info()
+st.write(df)
