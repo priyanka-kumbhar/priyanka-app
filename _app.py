@@ -3,10 +3,11 @@ import streamlit as st
 import pandas as pd
 # from prophet import Prophet
 
-data = pd.read_csv("Leave_tracker1.py.csv")
+# data = pd.read_csv("Leave_tracker1.py.csv")
 st.write(data)
 
 data.info()
+st.write(data)
 
 # import matplotlib.pyplot as plt
 # %matplotlib inline
